@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppMarina.Pages.Home"
+             >
+    <ScrollView BackgroundColor="#8f6277">
+
+        <StackLayout>
+
+            <Label Text="Bem Vindo(a) ao Cantinho da Marina"
+                   TextColor="White"
+                   FontSize="40"
+                   FontFamily="Josefin"
+                   HorizontalTextAlignment="Center"
+                   Margin="0,40,0,0"/>
+
+            <Frame BackgroundColor="#c594aa"
+                   Margin="20, 50, 20, 0"
+                   BorderColor="#c594aa">
+
+                <Label Text="Como você está se sentido hoje ?"
+                       TextColor="#ffffff"
+                       FontSize="30"
+                       FontFamily="Josefin"
+                       HorizontalTextAlignment="Center"/>
+            
+            </Frame>
+
+            <Button x:Name="BtnBem"
+                    Text="Hoje está sendo um ótimo dia!"
+                    TextColor="White"
+                    LineBreakMode="WordWrap"
+                    FontSize="25"
+                    FontFamily="Josefin"
+                    Margin="60,20,60,0"
+                    BackgroundColor="#cb94aa"/>
+
+            <Button x:Name="BtnCansado"
+                    Text="Hoje estou me sentido mais cansado(a) que o normal..."
+                    TextColor="White"
+                    LineBreakMode="WordWrap"
+                    FontSize="25"
+                    FontFamily="Josefin"
+                    Margin="60,20,60,0"
+                    BackgroundColor="#cb94aa"
+            />
+
+            <Button x:Name="BtnMal"
+                    Text="Hoje não estou me sentindo tão bem..."
+                    TextColor="White"
+                    LineBreakMode="WordWrap"
+                    FontSize="25"
+                    FontFamily="Josefin"
+                    Margin="60,20,60,0"
+                    BackgroundColor="#cb94aa"
+            />
+
+            <Button x:Name="BtnNormal"
+                    Text="Até o momento tem sido um dia como outro qualquer"
+                    TextColor="White"
+                    LineBreakMode="WordWrap"
+                    FontSize="25"
+                    FontFamily="Josefin"
+                    Margin="60,20,60,0"
+                    BackgroundColor="#cb94aa"
+            />
+
+        </StackLayout>
+        
+    </ScrollView>
+    
+</ContentPage>
